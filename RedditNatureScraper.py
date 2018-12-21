@@ -10,8 +10,10 @@ def RedditNatureScraper():
     with open('data.json','r') as data:
         json_data = json.load(data)
 
-    folder_path = json_data
-    print(folder_path["Path"])
+    folder_path = json_data[0]["Path"]
+    check_interval = json_data[0]["Interval"]
+   # print(folder_path)
+    #print(check_interval)
 
 if __name__ == "__main__":
     RedditNatureScraper()
