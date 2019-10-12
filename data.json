@@ -1,6 +1,5 @@
-[
-	{
-		"Path": "C:\\Users\\George\\Desktop\\naturepics",
-        "Interval": 3
-	}
-]
+{
+  "secret":"",
+  "client_id":"",
+  "user_agent": "RedditNatureDownloader 1.0 by u/Taycent https://github.com/GeorgeHarutyunyan/RedditNatureDownloader"
+}

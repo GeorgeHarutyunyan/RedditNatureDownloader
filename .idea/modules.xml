@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RedditNatureScraper.iml" filepath="$PROJECT_DIR$/.idea/RedditNatureScraper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RedditNatureDownloader.iml" filepath="$PROJECT_DIR$/.idea/RedditNatureDownloader.iml" />
     </modules>
   </component>
 </project>
