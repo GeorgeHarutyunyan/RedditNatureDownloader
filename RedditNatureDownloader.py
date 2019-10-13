@@ -13,7 +13,8 @@ def run_downloader():
     while (True):
         for id,post in enumerate(subreddit.hot(limit=config['Top Posts'])):
             print(id,post)
-            output_file = config['Path']+'//'+post.id+'.jpg'
+            output_file = config['Path']+post.id+'.jpg'
+            print(output_file)
             if not os.path.isfile(output_file):
                 urllib.request.urlretrieve(post.url,output_file)
         time.sleep(config['Update time'])
